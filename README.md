@@ -22,3 +22,5 @@ Running Steps:
 5. Using "gcc memory.c vfio.c stats.c –o driver_forwarding" to compile the code file.
 
 6. Using "./driver_forwarding 0000:02:01.0" to run the user-space driver forwarding test.
+
+7. You can also use "taskset -c 0 ./driver_forwarding 0000:02:01.0" to bind forwarding threads to a cpu core to exploit CPU affinity for efficiency.
