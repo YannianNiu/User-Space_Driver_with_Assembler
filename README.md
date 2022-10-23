@@ -1,5 +1,5 @@
-# User-Space_Driver with Assembler
-This is a user-space driver forwarding test (for Ubuntu and Intel 82545 NIC or VMware Workstation).
+# User-Space Driver with Assembler
+This is a user-space driver forwarding test to demonstrate the extremely high performance and data throughput of the user-space driver compared to the traditional kernel driver. Meanwhile, we integrated packet assembling method in the driver to cope with abrupt data traffic.
 
 One of the corresponding papers "Throughput-Efficient Communication Device Driver for IoT Gateways" has been accepted by 2022 IEEE International Conference on Systems, Man, and Cybernetics(SMC). The other one of the papers "Assembler: A Throughput-Efficient Module for Network Driver of Edge Computing Gateways" has been accepted by the 23rd Asia-Pacific Network Operations and Management Symposium (APNOMS). However, both of them are not yet searchable on Xplore, please wait for a moment.
 
