@@ -1,5 +1,5 @@
 # User-Space Driver with Assembler
-This is a user-space driver forwarding test to demonstrate the extremely high performance and data throughput of the user-space driver compared to the traditional kernel driver. Meanwhile, we integrated packet assembling method in the driver to cope with abrupt data traffic.
+This is a user-space driver forwarding test to demonstrate the extremely high performance and data throughput of the user-space driver compared to the traditional kernel driver. Meanwhile, we integrated packet assembling method in the driver to get a higher data throughput in small-packet-intensive scenarios.
 
 One of the corresponding papers "Throughput-Efficient Communication Device Driver for IoT Gateways" has been accepted by 2022 IEEE International Conference on Systems, Man, and Cybernetics(SMC). The other one of the papers "Assembler: A Throughput-Efficient Module for Network Driver of Edge Computing Gateways" has been accepted by the 23rd Asia-Pacific Network Operations and Management Symposium (APNOMS). However, both of them are not yet searchable on Xplore, please wait for a moment.
 
